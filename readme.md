@@ -1,4 +1,4 @@
-1、clone from https://github.com/weichunhu/archetype.git
+1、clone from https://github.com/weichunhu/archetype.git\r\n
 2、mvn clean deploy -Dmaven.test.skip=true
 3、mvn archetype:generate -DgroupId=com.cache -DartifactId=cache -Dversion=1.0-SNAPSHOT -Dpackage=com.cache -DarchetypeGroupId=com.archetype -DarchetypeArtifactId=archetype-parent -DarchetypeVersion=1.0-SNAPSHOT -X -DarchetypeCatalog=[local|remote]
 
